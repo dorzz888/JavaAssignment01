@@ -56,10 +56,10 @@ public class Sort {
     public static void PrintArr(int[] arr) {
 
         System.out.print("\nSorted Array: ");
-        for (int i = 0; i < countInput - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             System.out.print(arr[i] + ", ");
         }
-        System.out.print(arr[countInput - 1]);
+        System.out.print(arr[arr.length - 1]);
     }
 
     public static boolean CheckArrayLength(int[] arr) {
