@@ -17,12 +17,12 @@ $ git clone https://github.com/dorzz888/JavaAssignment01.git
 ```
 then open the project by IntelliJ.
 
-or
+or as Command line arguments
 
 ```sh
 $ git clone https://github.com/dorzz888/JavaAssignment01.git
 $ cd [ProjectFolder]
 $ cd src
 $ javac Main.java
-$ java Main
+$ java Main args0 args1 args2 args3 ...
 ```

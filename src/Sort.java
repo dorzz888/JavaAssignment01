@@ -24,7 +24,7 @@ public class Sort {
             System.out.println("Enter Number of Elements: ");
             countInput = s.nextInt();
             if (countInput <= 3) {
-                System.out.println("Array's Length should be more than three!");
+                System.out.println("Array should have more than 3 elements!");
             }
             x++;
         }
@@ -47,7 +47,6 @@ public class Sort {
                     arr[j] = x;
                 }
             }
-
         }
     }
 
